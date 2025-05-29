@@ -41,4 +41,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-C:\Users\lucky\projects\angular\base-llm-app\base-llm\src\devextreme-license.ts
+# ignore DevExtreme license helper
+/src/devextreme-license.ts
