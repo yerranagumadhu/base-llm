@@ -1,0 +1,16 @@
+.app-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: #f0f0f0;
+  font-size: 0.9rem;
+  height: 50px;
+}
+.help-btn {
+  background: none;
+  border: none;
+  color: #007acc;
+  font-weight: bold;
+  cursor: pointer;
+}

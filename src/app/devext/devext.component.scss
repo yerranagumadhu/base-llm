@@ -1,0 +1,15 @@
+.devext-container {
+  padding: 1rem;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  dx-chart {
+    height: 300px;    // give it some vertical space
+  }
+}

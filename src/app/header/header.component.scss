@@ -1,0 +1,23 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: white;
+  height: 60px;
+}
+.menu-btn,
+.profile-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+  flex: 1;
+  text-align: center;
+}

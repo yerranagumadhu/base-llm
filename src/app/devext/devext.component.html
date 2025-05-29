@@ -1,0 +1,17 @@
+<section class="devext-container">
+  <h2>Sales Over Time</h2>
+  <dx-chart
+    [dataSource]="salesData"
+    title="Annual Sales">
+    <dxi-series
+      argumentField="year"
+      valueField="value"
+      type="line"
+      name="Sales">
+    </dxi-series>
+    <dxo-argument-axis
+      [valueMarginsEnabled]="false">
+      <dxo-label format="####"></dxo-label>
+    </dxo-argument-axis>   
+  </dx-chart>
+</section>
